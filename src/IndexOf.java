@@ -18,15 +18,15 @@ public class IndexOf {
 
 
         //El bucle de la busqueda
-        //String frase = "El perro corrió por el orbe rojo";
-        //String buscar = "o";
-        //int contador = 0;
-        //int indice = frase.indexOf(buscar);
-        //while (indice != -1){
-        //    contador++;
-        //    indice = frase.indexOf(buscar,indice + 1);
-        //}
-        //System.out.println("La letra 'o' aparece " + contador + " veces");
+        String frase = "El perro corrió por el orbe rojo";
+        String buscar = "o";
+        int contador = 0;
+        int indice = frase.indexOf(buscar);
+        while (indice != -1){
+            contador++;
+            indice = frase.indexOf(buscar,indice + 1);
+        }
+        System.out.println("La letra 'o' aparece " + contador + " veces");
 
 
     }
